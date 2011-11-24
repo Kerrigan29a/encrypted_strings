@@ -4,26 +4,26 @@ This project aims to study how to encrypt and obfuscate explicit text strings
 used programs in C and C++. A common technique used to investigate into an
 executable file, is to analyze these text strings to extract information.
 
->`$ ./simple_hello_world`  
->`Hello world`  
->`$ strings simple_hello_world`  
->`Hello world`  
+>`$ ./simple_hello_world   
+>Hello world  
+>$ strings simple_hello_world   
+>Hello world`  
 
 With the exposed technique in this project, a developer will "hide" those string.
 
->`$ ./hello_c`  
->`hello world`  
->`foo bar`  
->`$ strings hello_c`  
->`cnggd+|dygoahh'efu`  
->`Utpc1cxry1spbepcu`  
->`$ ./hello_cpp`  
->`hello world`  
->`foo bar`  
->`$ strings hello_cpp`  
->`zPLR`  
->`cnggd+|dygoahh'efu`  
->`Utpc1cxry1spbepcu`
+>`$ ./hello_c  
+>hello world  
+>foo bar  
+>$ strings hello_c  
+>cnggd+|dygoahh'efu  
+>Utpc1cxry1spbepcu  
+>$ ./hello_cpp  
+>hello world  
+>foo bar  
+>$ strings hello_cpp  
+>zPLR  
+>cnggd+|dygoahh'efu  
+>Utpc1cxry1spbepcu`
 
 LICENSE
 ===
