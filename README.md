@@ -79,7 +79,6 @@ int main(int argc, char **argv) {
 
 ## LICENSE
 Copyright (c) 2011 Javier Escalada Gómez
-
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
