@@ -91,6 +91,9 @@ int main(int argc, char **argv) {
 }
 ```
 
+## INTERNALS
+The obfuscation of the strings is made by a `xor` encryption over all the bytes of the string with the length of the string as the key. Additional the strings are stored as array of characters (without the last 0 byte) instead of C-style strings.
+
 ## LICENSE
 Copyright (c) 2011 Javier Escalada Gómez  
 All rights reserved.
