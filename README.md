@@ -30,9 +30,23 @@ Utpc1cxry1spbepcu
 ```
 
 ## USAGE
+To use encrypted strings, it's necessary to create a file `strings.list` with the following style
 
-### C
+```ini
+HELLO_WORLD = "hello world"
+FOO_BAR = "foo bar"
+RICH_BASTARD = "Dear rich bastard"
+```
 
+Then, in order to compile correctly the project it's necessary to execute the script `string_cypher.py` that generates the file `encrypted_strings.def` that has the following content:
+
+```c
+STR(HELLO_WORLD, 11, {'\x63', '\x6e', '\x67', '\x67', '\x64', '\x2b', '\x7c', '\x64', '\x79', '\x67', '\x6f', })
+STR(FOO_BAR, 7, {'\x61', '\x68', '\x68', '\x27', '\x65', '\x66', '\x75', })
+STR(RICH_BASTARD, 17, {'\x55', '\x74', '\x70', '\x63', '\x31', '\x63', '\x78', '\x72', '\x79', '\x31', '\x73', '\x70', '\x62', '\x65', '\x70', '\x63', '\x75', })
+```
+
+### C example
 ```c
 #include <stdio.h>
 #include "encrypted_strings.h"
@@ -59,7 +73,7 @@ int main(int argc, char **argv) {
 }
 ```
 
-### C++
+### C++ example
 
 ```cpp
 #include <iostream>
