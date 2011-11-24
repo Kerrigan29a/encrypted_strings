@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2011 Javier Escalada Gómez
+ * All rights reserved.
+ */
+
 #ifndef __ENCRYPTED_STRINGS__
 #define __ENCRYPTED_STRINGS__
 

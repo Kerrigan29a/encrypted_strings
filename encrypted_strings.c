@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2011 Javier Escalada Gómez
+ * All rights reserved.
+ */
+
 #include "encrypted_strings.h"
 
 /* Embeds the encrypted text strings */

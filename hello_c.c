@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2011 Javier Escalada Gómez
+ * All rights reserved.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "encrypted_strings.h"
