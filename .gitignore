@@ -3,3 +3,6 @@
 .pydevproject
 .settings
 .DS_Store
+*.o
+*.def
+*.dSYM
